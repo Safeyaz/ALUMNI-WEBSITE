@@ -1,0 +1,44 @@
+.mentor-profile {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .mentor-info {
+    width: 30%;
+  }
+  
+  .charts {
+    width: 70%;
+  }
+  
+  #bar-chart,
+  #line-chart {
+    height: 200px;
+  }
+  
+  .stats {
+    margin-top: 20px;
+  }
+  
+  .rating-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .rating {
+    text-align: center;
+  }
+  
+  .feedbacks {
+    margin-top: 20px;
+  }
+  
+  .feedbacks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedbacks li {
+    margin-bottom: 10px;
+  }
+  

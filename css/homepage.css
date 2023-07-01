@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ADD8E6;
+    padding: 20px;
+}
+
+.navbar-logo {
+    margin-left: 30px;
+}
+
+.navbar-text {
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: -400px;
+    font-size: xx-large;
+    color: #000080;
+}
+
+.navbar-notification {
+    position: relative;
+}
+
+.navbar-notification-icon {
+    position: absolute;
+    top: 0;
+    right: -130px;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.navbar-buttons button:focus {
+    outline: none;
+}
+
+.navbar-buttons button {
+    margin-left: 30px;
+    color: black;
+    font-size: 24px;
+}
+
+.navbar-notification-icon,
+.navbar-profile-icon,
+.navbar-message-icon {
+    font-size: 24px;
+}
+
+.section{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.section-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 120px; /* Adjust the margin as per your preference */
+    margin-bottom: 20px;
+    text-align: left;
+    align-self: flex-start; /* Add this line to align the heading to the left */
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card:hover {
+    /* Add the desired hover effect properties here */
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.card-container .card {
+    margin-right: 80px;
+}
+
+.card {
+    background-color: #B6EAFA;
+    border-radius: 8px;
+    padding: 40px;
+    width: 300px;
+    flex: 1;
+}
+
+
+.card-heading {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+}
+
+.card-heading-icon {
+    margin-right: 10px;
+}
+
+.card-content {
+    font-size: 14px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 0 80px;
+}
+
+.card-option {
+    width: 10px; /* Adjust the width based on your card size and margin */
+}
+
+.register-btn {
+    margin-left: 20px;
+    width: 100px;
+}
+
+.share-btn {
+    width: 100px;
+}
+
+.container2 .col-md-5 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container2 img {
+    height: 400px;
+    max-width: 350px;
+  }
+  
+  .btn-dark-blue {
+    background-color: #074f8c;
+    color: white;
+}
+
+.btn-dark-blue:hover {
+    background-color: #063c6d;
+    color: white;
+}
+
+.project-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .project-option {
+    width: 300px;
+    background-color: #B6EAFA;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-option .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .project-option .card-text {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 10px;
+  }
+  
+  .project-option .btn-primary {
+    background-color: #074f8c;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .project-option .btn-primary:hover {
+    background-color: #063c6d;
+  }
+  
+  .project-option .card-option {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .project-option .card-option .btn-link {
+    color: #888888;
+    cursor: pointer;
+  }
+  
+  .project-option .card-option .btn-link:hover {
+    color: #555555;
+  }
+  
+
+    .footer {
+        background-color: #f2f2f2;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        display: inline-block;
+        margin: 40px;
+    }
+
+    .footer-left a,
+    .footer-middle a,
+    .footer-right a {
+        color: #023a6b;
+        text-decoration: none;
+    }
